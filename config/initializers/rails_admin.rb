@@ -1,5 +1,5 @@
 RailsAdmin.config do |config|
-
+  config.main_app_name = ["Футбол", "Админ панель"]
   config.model 'Country' do
     list do
       exclude_fields :short_name
